@@ -1,0 +1,1 @@
+create table logging(id int not null primary key auto_increment, in_req varchar(100), method varchar(255), data varchar(1024) default null, status_code varchar(10), timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
